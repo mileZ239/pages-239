@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.button-wrapper {
+    margin-bottom: 30px;
+}
+
+.button-wrapper > button {
+    width: 150px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    transition: all .3s linear;
+    --degree: 0deg;
+}
+
+.square-rainbow {
+    background-image: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
+}
+
+.square-blue {
+    background-color: blue;
+}
+
+.square-rotated {
+    transform: rotate(var(--degree));
+}
+
+.square-bordered {
+    border-radius: 20px;
+}
+
+.square-hidden {
+    opacity: 0;
+}
+
+.text1 {
+    gap: 100px;
+    font-size: 25px;
+}
+
+.text1-hidden {
+    opacity: 0;
+}
